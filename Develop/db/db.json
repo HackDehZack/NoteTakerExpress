@@ -1,6 +1,39 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+      {
+        "id": "1",
+        "title": "Test Note 1",
+        "text": "This is the first test note. Blah blah blah."
+      },
+      {
+        "id": "2",
+        "title": "Test Note 2",
+        "text": "This is the second test note. Blah blah blah."
+      },
+      {
+        "id": "3",
+        "title": "Test Note 3",
+        "text": "This is the third test note. Blah blah blah."
+      },
+      {
+        "id": "4",
+        "title": "Test Note 4",
+        "text": "This is the fourth test note. Blah blah blah."
+      },
+      {
+        "id": "5",
+        "title": "Test Note 5",
+        "text": "This is the fifth test note. Blah blah blah."
+      },
+      {
+        "id": "6",
+        "title": "Test Note 6",
+        "text": "This is the sixth test note. Blah blah blah."
+      },
+      {
+        "id": "7",
+        "title": "Test Note 7",
+        "text": "This is the seventh test note. Blah blah blah."
+      }
+    ]
+  }
