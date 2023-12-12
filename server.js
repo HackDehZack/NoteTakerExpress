@@ -11,7 +11,7 @@ app.use(express.json()); // Middleware for JSON parsing
 
 // GET method
 app.get('/api/notes', (req, res) => {
-  fs.readFile('./db.json', 'utf8', (err, data) => {
+  fs.readFile('./db/db.json', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).json({ error: 'Failed to retrieve notes' });
