@@ -35,7 +35,7 @@ app.post('/api/notes', (req, res) => {
     return res.status(400).json({ error: 'Title and text are required' });
   }
 
-  fs.readFile('./db.json', 'utf8', (err, data) => {
+  fs.readFile('./db/db.json', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).json({ error: 'Failed to save note' });
@@ -49,7 +49,7 @@ app.post('/api/notes', (req, res) => {
     };
     db.notes.push(newNote);
 
-    fs.writeFile('./db.json', JSON.stringify(db), (err) => {
+    fs.writeFile('./db/db.json', JSON.stringify(db), (err) => {
       if (err) {
         console.error(err);
         return res.status(500).json({ error: 'Failed to save note' });
@@ -64,7 +64,7 @@ app.post('/api/notes', (req, res) => {
 app.delete('/api/notes/:id', (req, res) => {
   const noteId = req.params.id;
 
-  fs.readFile('./db.json', 'utf8', (err, data) => {
+  fs.readFile('./db/db.json', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).json({ error: 'Failed to delete note' });
@@ -73,7 +73,7 @@ app.delete('/api/notes/:id', (req, res) => {
     let db = JSON.parse(data);
     db.notes = db.notes.filter(note => note.id !== noteId);
 
-    fs.writeFile('./db.json', JSON.stringify(db), (err) => {
+    fs.writeFile('./db/db.json', JSON.stringify(db), (err) => {
       if (err) {
         console.error(err);
         return res.status(500).json({ error: 'Failed to delete note' });
