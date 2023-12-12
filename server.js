@@ -4,7 +4,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'develop', 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json()); // Middleware for JSON parsing
@@ -23,7 +23,7 @@ app.get('/api/notes', (req, res) => {
 });
 
 app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, 'develop', 'public', 'notes.html'));
+  res.sendFile(path.join(__dirname, 'public', 'notes.html'));
 });
 
 
