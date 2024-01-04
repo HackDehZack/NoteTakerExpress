@@ -27,11 +27,11 @@ app.get('/notes', (req, res) => {
 });
 
 
-//change
+
 app.get('/public/assets/js/index.js', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'assets', 'js', 'index.js'));
 });
-//change
+
 
 
 // POST method
