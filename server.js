@@ -26,7 +26,6 @@ app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'notes.html'));
 });
 
-
 // POST method
 app.post('/api/notes', (req, res) => {
   const { title, text } = req.body;

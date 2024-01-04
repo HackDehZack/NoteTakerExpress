@@ -1,39 +1,39 @@
 {
     "notes": [
-      {
-        "id": "1",
-        "title": "Test Note 1",
-        "text": "This is the first test note. Blah blah blah."
-      },
-      {
-        "id": "2",
-        "title": "Test Note 2",
-        "text": "This is the second test note. Blah blah blah."
-      },
-      {
-        "id": "3",
-        "title": "Test Note 3",
-        "text": "This is the third test note. Blah blah blah."
-      },
-      {
-        "id": "4",
-        "title": "Test Note 4",
-        "text": "This is the fourth test note. Blah blah blah."
-      },
-      {
-        "id": "5",
-        "title": "Test Note 5",
-        "text": "This is the fifth test note. Blah blah blah."
-      },
-      {
-        "id": "6",
-        "title": "Test Note 6",
-        "text": "This is the sixth test note. Blah blah blah."
-      },
-      {
-        "id": "7",
-        "title": "Test Note 7",
-        "text": "This is the seventh test note. Blah blah blah."
-      }
+        {
+            "id": 1,
+            "title": "Meeting Notes",
+            "content": "Discuss project timeline and deliverables"
+        },
+        {
+            "id": 2,
+            "title": "Grocery List",
+            "content": "Milk, eggs, bread, and fruits"
+        },
+        {
+            "id": 3,
+            "title": "Book Recommendations",
+            "content": "The Alchemist, 1984, and To Kill a Mockingbird"
+        },
+        {
+            "id": 4,
+            "title": "Workout Plan",
+            "content": "30 minutes of cardio and 20 minutes of strength training (Bc im so smoking hot)"
+        },
+        {
+            "id": 5,
+            "title": "Travel Itinerary",
+            "content": "Flight details, hotel reservations, and sightseeing plans"
+        },
+        {
+            "id": 6,
+            "title": "Recipe Ideas",
+            "content": "Pasta le Pasta, Chicken Curry, and Chocolate Cake"
+        },
+        {
+            "id": 7,
+            "title": "Shopping List",
+            "content": "Toothpaste, shampoo, soap, and laundry detergent"
+        }
     ]
-  }
+}
