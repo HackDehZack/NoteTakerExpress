@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   let noteForm = document.querySelector('.note-form');
   let noteTitle = document.querySelector('.note-title');
-  let noteText = document.querySelector('.note-textarea');
+  let noteText = document.querySelector('.note-text');
   let saveNoteBtn = document.querySelector('.save-note');
   let newNoteBtn = document.querySelector('.new-note');
   let clearBtn = document.querySelector('.clear-btn');
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return; // Stop the execution if elements are missing
   }
 
+  
   // Show an element
   const show = (elem) => {
     if (elem) {

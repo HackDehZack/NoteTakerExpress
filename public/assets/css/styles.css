@@ -6,7 +6,7 @@ body {
 }
 
 .save-note, .new-note, .clear-btn {
-  display: absolute;
+  display: inline-block;
 }
 
 .icons {

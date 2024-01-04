@@ -26,6 +26,14 @@ app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'notes.html'));
 });
 
+
+//change
+app.get('/public/assets/js/index.js', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'assets', 'js', 'index.js'));
+});
+//change
+
+
 // POST method
 app.post('/api/notes', (req, res) => {
   const { title, text } = req.body;
