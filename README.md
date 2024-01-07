@@ -65,7 +65,11 @@ The Note Taker Express application is deployed live using Heroku. You can access
 ## Live Demo
 
 To see a live demonstration of the Note Taker Express application, click below. The video showcases the features and functionality of the application.
-**vid here
+
+
+[Untitled_ Jan 6, 2024 8_42 PM.webm](https://github.com/HackDehZack/NoteTakerExpress/assets/140559436/d4ecea42-ff4a-41b9-8d24-df99a65802e4)
+
+
 ## Contributing
 
 Contributions to the Note Taker Express project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
